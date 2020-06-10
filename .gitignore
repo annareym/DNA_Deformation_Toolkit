@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# PDB file for testing.
+1d29.pdb
