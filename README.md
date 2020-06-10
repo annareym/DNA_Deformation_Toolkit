@@ -20,7 +20,7 @@ Alexey Voronov & Anna Reymer, [Reymer Lab](https://cmb.gu.se/english/about_us/st
 ## How to use
 DNA twisting and stretching tools work analogously to any collective variable (colvar) implemented in PLUMED. TWIST2 and STRETCH colvars monitor or control the value of total twist and total rise, correspondingly, between any chosen base pair levels _i_ and _j_ in a DNA fragment. As an imput to the colvars, namely plumed.dat file, provide 3\*2\*N atom numbers from DNA bases that will be restrained: (N restrained base levels \* 2 DNA strands \* 3 atoms per base: C1',N1/N9 and C6/C8 depending whether purines or pyrimidines, correspondignly), force constant (_KAPPA_), and desired value (_AT_) of total twist (in degrees) or stretch (in nm). To push a system into the desired conformation, an energy penalty will be added to the potential energy functional: E<sub>Deform</sub>=0.5\*k\*(x<sub>0</sub>-x)<sup>2</sup>. If you want to just monitor the total twist or total stretch values while running MD, provide only 3\*2\*N atom numbers.
 
-####Example of plumed.dat input file for TWIST2:
+#### Example of plumed.dat input file for TWIST2:
 ```
 tw: TWIST2 ATOMS=72,74,87,991,993,1005,104,106,116,958,960,974,134,136,150,928,930,940,167,169,181,896,898,911,199,201
 ,214,864,866,878,231,233,243,831,833,847,261,263,277,801,803,813,294,296,308,769,771,784,326,328,341,737,739,751,358,3
