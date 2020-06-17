@@ -34,7 +34,7 @@ Provided atom numbers should respect the following order: first 3 atom numbers r
 Plumed.dat file will look analogously for STRETCH colvar.
 
 ## Acknowledgements
-This work was supported by Swedish Foundation for Strategic Research SSF Grant [ITM17-0431](https://strategiska.se/en/research/ongoing-research/instrument-technique-and-method-development-2017/project/9774/), and Hasselblad Foundation [Hasselblad Science Grant 2017](https://www.hasselbladfoundation.org/wp/naturvetenskaplig-projekt/female-scientists) to Dr. Anna Reymer.
+This work was supported by Swedish Foundation for Strategic Research SSF Grant [ITM17-0431](https://strategiska.se/en/research/ongoing-research/instrument-technique-and-method-development-2017/project/9774/) to Dr. Anna Reymer.
 
 ## License
 
